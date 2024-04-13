@@ -115,13 +115,7 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
+This workshop is open to the faculty, staff, and students of Fresno State University.
 
 {% comment %}
 LOCATION
@@ -272,7 +266,6 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-{% endcomment %}
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
@@ -280,6 +273,7 @@ Edit the text to match who can attend the workshop. For instance:
 </p>
 
 <hr/>
+{% endcomment %}
 
 {% comment%}
 CODE OF CONDUCT
