@@ -115,7 +115,8 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-**Who:** This workshop is open to the faculty, staff, and students of Fresno State University.  
+<b>Who:</b> This workshop is open to the faculty, staff, and students of Fresno State University.  
+<br>
 
 {% comment %}
 LOCATION
